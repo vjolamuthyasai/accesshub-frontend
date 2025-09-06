@@ -1,87 +1,44 @@
-AccessiHub Frontend
+# AccessiHub Frontend
 
-AccessiHub Frontend is a Next.js web application that provides an interface for analyzing website accessibility. Users can enter a website URL, trigger an accessibility analysis (via backend API), and view structured reports on detected accessibility issues. The app also provides dashboards and downloadable reports in multiple formats.
+AccessiHub Frontend is a **Next.js web application** that lets users analyze website accessibility.  
+It connects with the [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) to fetch accessibility reports, display issues in a structured dashboard, and generate downloadable reports (PDF/JSON/CSV).
 
-🚀 Features
+---
 
-Enter any website URL for accessibility testing.
+## 🚀 Features
+- Input a website URL for accessibility testing.
+- Trigger accessibility scans via backend API.
+- View issues in a clean, dashboard-style interface.
+- Download results in multiple formats (PDF, JSON, CSV).
+- Built with **Next.js + TailwindCSS** for speed and responsiveness.
+- Deployed on **Vercel** with automatic CI/CD.
 
-Trigger analysis powered by the AccessiHub backend.
+---
 
-Display results in a structured, user-friendly dashboard.
+## 🛠️ Tech Stack
+- **Frontend:** [Next.js](https://nextjs.org/), React, TailwindCSS  
+- **Deployment:** [Vercel](https://vercel.com)  
+- **Backend API:** [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) (Flask)  
 
-Download reports (PDF, JSON, CSV).
+---
 
-Responsive and optimized Next.js frontend.
+## 📦 Getting Started
 
-Deployed on Vercel for scalability and CI/CD.
+### Prerequisites
+- Node.js **>=18.x**
+- npm or yarn
 
-🛠️ Tech Stack
-
-Frontend: Next.js, React, TailwindCSS
-
-Deployment: Vercel
-
-Backend API: AccessiHub Backend (Flask)
-
-📦 Installation & Setup
-Prerequisites
-
-Node.js (>=18.x)
-
-npm or yarn
-
-Steps
-
-Clone the repository:
-
+### Installation
+```bash
+# Clone the repository
 git clone https://github.com/your-org/accessihub-frontend.git
 cd accessihub-frontend
 
-
-Install dependencies:
-
+# Install dependencies
 npm install
 # or
 yarn install
 
+npm run build 
 
-Create a .env.local file in the root directory with your backend API URL:
-
-NEXT_PUBLIC_API_URL=http://localhost:5000
-
-
-Run the development server:
-
-npm run dev
-# or
-yarn dev
-
-
-The app will be available at http://localhost:3000
-.
-
-Build for production:
-
-npm run build
-npm start
-
-🌍 Deployment on Vercel
-
-This project is configured for easy deployment on Vercel. Simply connect your repo to Vercel and set the required environment variables (NEXT_PUBLIC_API_URL). Vercel will handle CI/CD and preview deployments automatically.
-
-📊 Dashboard
-
-Visual representation of accessibility issues by category.
-
-Filters and sorting for easy issue navigation.
-
-Export options for further reporting.
-
-🤝 Contributing
-
-Contributions are welcome! Please fork the repo and create a pull request.
-
-📄 License
-
-MIT License – feel free to use and modify.
+npm run start 
