@@ -1,6 +1,44 @@
-# accesshub-frontend-
-AccessiHub Frontend is a React-based web app that lets users analyze website accessibility. Enter a URL to run checks, view issues in a clean dashboard, and export results as PDF/CSV/JSON. Deployed on Vercel, it ensures fast, scalable, and seamless accessibility testing with CI/CD integration.
+# AccessiHub Frontend
 
+AccessiHub Frontend is a **Next.js web application** that lets users analyze website accessibility.  
+It connects with the [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) to fetch accessibility reports, display issues in a structured dashboard, and generate downloadable reports (PDF/JSON/CSV).
 
-# Sample Dashboard after running
-<img width="1903" height="944" alt="image" src="https://github.com/user-attachments/assets/89d3e970-e70a-4195-9b95-c97e7e7917e6" />
+---
+
+## 🚀 Features
+- Input a website URL for accessibility testing.
+- Trigger accessibility scans via backend API.
+- View issues in a clean, dashboard-style interface.
+- Download results in multiple formats (PDF, JSON, CSV).
+- Built with **Next.js + TailwindCSS** for speed and responsiveness.
+- Deployed on **Vercel** with automatic CI/CD.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** [Next.js](https://nextjs.org/), React, TailwindCSS  
+- **Deployment:** [Vercel](https://vercel.com)  
+- **Backend API:** [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) (Flask)  
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js **>=18.x**
+- npm or yarn
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-org/accessihub-frontend.git
+cd accessihub-frontend
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+npm run build 
+
+npm run start 
