@@ -42,3 +42,6 @@ yarn install
 npm run build 
 
 npm run start 
+
+Sample ScreenShot
+![alt text](image.png)
