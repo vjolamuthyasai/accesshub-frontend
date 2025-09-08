@@ -6,6 +6,7 @@ It connects with the [AccessiHub Backend](https://github.com/vjolamuthyasai/acce
 ---
 
 ## 🚀 Features
+
 - Input a website URL for accessibility testing.
 - Trigger accessibility scans via backend API.
 - View issues in a clean, dashboard-style interface.
@@ -16,19 +17,22 @@ It connects with the [AccessiHub Backend](https://github.com/vjolamuthyasai/acce
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** [Next.js](https://nextjs.org/), React, TailwindCSS  
-- **Deployment:** [Vercel](https://vercel.com)  
-- **Backend API:** [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) (Flask)  
+
+- **Frontend:** [Next.js](https://nextjs.org/), React, TailwindCSS
+- **Deployment:** [Vercel](https://vercel.com)
+- **Backend API:** [AccessiHub Backend](https://github.com/vjolamuthyasai/accesshub-backend) (Flask)
 
 ---
 
 ## 📦 Getting Started
 
 ### Prerequisites
+
 - Node.js **>=18.x**
 - npm or yarn
 
 ### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/your-org/accessihub-frontend.git
@@ -39,6 +43,12 @@ npm install
 # or
 yarn install
 
-npm run build 
+npm run build
 
-npm run start 
+npm run start
+
+# Access Hub
+
+This is the home screen of the app:
+![App Screenshot](./assets/homepage.png)
+```
